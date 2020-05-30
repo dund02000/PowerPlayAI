@@ -160,7 +160,7 @@ results2['Player'] = Player2
 sns.scatterplot(x="pca1", y="pca2", hue=new_data2['kmeans_label'], data=results2)
 plt.title('K-means Clustering with 2 dimensions')
 plt.show()
-
+ 
 
 Cluster1def.to_csv('Cluster1defence.csv')
 Cluster2def.to_csv('Cluster2defence.csv')
